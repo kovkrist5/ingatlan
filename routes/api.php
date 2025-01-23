@@ -9,3 +9,4 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::get('/ingatlan', [IngatlanController::class, 'index']);
+Route::post('/ingatlan', [IngatlanController::class, 'store']);

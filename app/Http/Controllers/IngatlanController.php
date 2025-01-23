@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Ingatlan;
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class IngatlanController extends Controller
 {
@@ -20,7 +22,20 @@ class IngatlanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validator = Validator::make($request->all(),[
+            'category'=> 'integer|required|exists:categories,id',
+            'leiras' => 'string',
+            'hirdetesDatuma' => 'date',
+            'tehermentes'=> 'boolean|required',
+            'ar'=>'integer|required',
+            'kepUrl'=>'string',
+            
+        ]);
+        if($validator->fails()){
+            return response()->json(['message'=>'Hiányos adatok'], 400);
+        }
+        $ingatlan= Ingatlan::create($request->all());
+        return response()->json(['Id'=>$ingatlan->id]);
     }
 
     /**

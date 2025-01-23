@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
               "hirdetesDatuma"=> "2022-02-21",
               "tehermentes"=> true,
               "ar"=> 26990000,
-              "kepUrl"=> "http://localhost:3000/adv01.jpg"
+              "kepUrl"=> "https://www.shutterstock.com/image-illustration/fire-number-1-260nw-82486915.jpg"
             ],
             [
               "id"=> 2,
@@ -42,7 +42,7 @@ class DatabaseSeeder extends Seeder
               "hirdetesDatuma"=> "2022-02-28",
               "tehermentes"=> true,
               "ar"=> 28990000,
-              "kepUrl"=> "http://localhost:3000/adv02.jpg"
+              "kepUrl"=> "https://www.shutterstock.com/image-illustration/number-two-text-on-fire-600w-460188424.jpg"
             ],
             [
               "id"=> 3,
@@ -51,7 +51,7 @@ class DatabaseSeeder extends Seeder
               "hirdetesDatuma"=> "2022-02-24",
               "tehermentes"=> true,
               "ar"=> 32000000,
-              "kepUrl"=> "http://localhost:3000/adv03.jpg"
+              "kepUrl"=> "https://as2.ftcdn.net/v2/jpg/10/37/86/69/1000_F_1037866944_d54jGTH5ER7gBb8vTBXeJQgebz0G9baF.jpg"
             ],
             [
               "id"=> 4,
@@ -60,7 +60,7 @@ class DatabaseSeeder extends Seeder
               "hirdetesDatuma"=> "2022-02-26",
               "tehermentes"=> true,
               "ar"=> 5990000,
-              "kepUrl"=> "http://localhost:3000/adv04.jpg"
+              "kepUrl"=> "https://www.shutterstock.com/image-illustration/number-four-text-on-fire-260nw-460188412.jpg"
             ],
             [
               "id"=> 5,
@@ -69,7 +69,7 @@ class DatabaseSeeder extends Seeder
               "hirdetesDatuma"=> "2022-03-18",
               "tehermentes"=> true,
               "ar"=> 79000000,
-              "kepUrl"=> "http://localhost:3000/adv05.jpg"
+              "kepUrl"=> "https://media.istockphoto.com/id/532186777/photo/fire-number-on-black-background.jpg?s=612x612&w=0&k=20&c=Fe6majAx1IfPYhxzENnmOvia8GtqTFNJRf-FX_VGkEs="
             ],   
             [
               "id"=> 6,
@@ -78,7 +78,7 @@ class DatabaseSeeder extends Seeder
               "hirdetesDatuma"=> "2022-02-23",
               "tehermentes"=> false,
               "ar"=> 25000000,
-              "kepUrl"=> "http://localhost:3000/adv06.jpg"
+              "kepUrl"=> "https://www.shutterstock.com/shutterstock/photos/1331505035/display_1500/stock-photo-realistic-fire-countdown-with-smoke-and-cloud-the-fire-counts-from-ten-to-zero-abstract-epic-1331505035.jpg"
             ]    
             ];
             foreach($ingatlans as $s){
