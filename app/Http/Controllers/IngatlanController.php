@@ -14,7 +14,7 @@ class IngatlanController extends Controller
      */
     public function index()
     {
-        return Ingatlan::all();
+        return Ingatlan::with("category")->get();
     }
 
     /**

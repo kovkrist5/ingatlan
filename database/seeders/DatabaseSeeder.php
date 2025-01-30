@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
-        $categories=["Ház", "lakéás" , "építési telek", "garázs","mezőgazdasági terület", "ipari ingatlan"];
+        $categories=["Ház", "lakás" , "építési telek", "garázs","mezőgazdasági terület", "ipari ingatlan"];
         foreach($categories as $c){
         Category::create(['name'=> $c]);
         }
